@@ -3,17 +3,16 @@
     .Tabla {
         display: flex;
         flex-direction: row;
-    
+
     }
 
     .flex {
         display: flex;
         flex-direction: column;
         width: 5%;
-        background-color: #F7CAAC;
+        background-color: #F7D8AA;
         text-align: center;
         border: 1px solid black;
-        
 
     }
 
@@ -42,13 +41,13 @@
     }
 
 
-    .cont-amarillo{
+    .cont-amarillo {
         display: flex;
         grid-template-columns: auto;
 
     }
-    
-    .col{
+
+    .cont-amarillo .col {
 
         display: flex;
         flex-direction: column;
@@ -56,10 +55,61 @@
     }
 
 
-    .elemento {
-        background-color: yellow;
+    .cont-amarillo .elemento {
+        background-color: #FFFF00;
         padding: 15px 30px;
         border: 1px solid black;
 
+    }
+
+    .cont-3 {
+        display: flex;
+        grid-template-columns: auto;
+    }
+
+    .cont-3 .col {
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+
+    .cont-3 .elementoF,
+    .cont-3 .elementoM,
+    .cont-3 .elementoV,
+    .cont-3 .elemento {
+
+        padding: 15px 30px;
+        border: 1px solid black;
+    }
+
+    .elemento {
+
+        background-color: #5ad0f8;
+
+    }
+
+    .elementoV {
+        background-color: #86ff61;
+
+    }
+
+    .elementoM {
+        background-color: #c171fe;
+
+    }
+
+    .elementoF {
+        background-color: #ff59ca;
+
+    }
+
+
+
+    .cont-4 .elemento {
+        background-color: rgb(86, 255, 255);
+        padding: 15px 30px;
+        border: 1px solid black;
     }
 }
