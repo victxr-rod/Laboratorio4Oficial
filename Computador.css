@@ -1,6 +1,6 @@
 @media (min-width: 801px) {
 
-    .tabla{
+    .tabla {
         display: flex;
         flex-direction: row;
     }
@@ -23,12 +23,32 @@
     }
 
 
-    .columna2{
+    .columna2 {
         display: flex;
         flex-direction: column;
         width: 5%;
         background-color: #e88b4d;
         text-align: center;
         border: 1px solid black;
+    }
+
+
+    .col  {
+
+        display: flex;
+        flex-direction: column;
+        width: 5%;
+        background-color: #e5e84d;
+        text-align: center;
+        border: 1px solid black;
+
+
+    }
+    .elemento{
+        display: flex;
+        flex-direction: column;
+        padding: 15%;
+        border: 1px solid black;
+
     }
 }
