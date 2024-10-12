@@ -1,18 +1,34 @@
-
 @media (min-width: 801px) {
-  .flex{
-    display: flex;
-    flex-direction: column;
-    width: 5%;
-    background-color: #F7CAAC;
-    text-align: center;
-    border: 1px solid black;
-}
 
-.flex-elemento{
-    display: flex;
-    flex-direction: column;
-    padding: 15%;
-    border: 1px solid black;
-}
+    .tabla{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        width: 5%;
+        background-color: #F7CAAC;
+        text-align: center;
+        border: 1px solid black;
+
+    }
+
+    .flex-elemento {
+        display: flex;
+        flex-direction: column;
+        padding: 15%;
+        border: 1px solid black;
+    }
+
+
+    .columna2{
+        display: flex;
+        flex-direction: column;
+        width: 5%;
+        background-color: #e88b4d;
+        text-align: center;
+        border: 1px solid black;
+    }
 }
