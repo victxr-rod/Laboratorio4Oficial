@@ -1,8 +1,9 @@
 @media (min-width: 801px) {
 
-    .tabla {
+    .Tabla {
         display: flex;
         flex-direction: row;
+    
     }
 
     .flex {
@@ -12,6 +13,7 @@
         background-color: #F7CAAC;
         text-align: center;
         border: 1px solid black;
+        
 
     }
 
@@ -22,32 +24,41 @@
         border: 1px solid black;
     }
 
+    .flex-elemento2 {
+        display: flex;
+        flex-direction: column;
+        padding: 15%;
+        border: 1px solid black;
+        background-color: #e88b4d;
+
+    }
 
     .columna2 {
         display: flex;
         flex-direction: column;
         width: 5%;
-        background-color: #e88b4d;
         text-align: center;
         border: 1px solid black;
     }
 
 
-    .col  {
-
+    .cont-amarillo{
         display: flex;
-        flex-direction: column;
-        width: 5%;
-        background-color: #e5e84d;
-        text-align: center;
-        border: 1px solid black;
-
+        grid-template-columns: auto;
 
     }
-    .elemento{
+    
+    .col{
+
         display: flex;
         flex-direction: column;
-        padding: 15%;
+        padding-top: 65px;
+    }
+
+
+    .elemento {
+        background-color: yellow;
+        padding: 15px 30px;
         border: 1px solid black;
 
     }
