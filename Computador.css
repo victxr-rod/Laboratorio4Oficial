@@ -1,18 +1,18 @@
 
-@media(Min-width: 801px){
-    .flex{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        background-color: #F7CAAC;
-        text-align: center;
-        border: 1px solid black;
-    }
+@media (min-width: 801px) {
+  .flex{
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    background-color: #F7CAAC;
+    text-align: center;
+    border: 1px solid black;
+}
 
-    .flex-elemento{
-        display: flex;
-        flex-direction: row;
-        padding: 15%;
-        border: 1px solid black;
-    }
+.flex-elemento{
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+    border: 1px solid black;
+}  
 }
