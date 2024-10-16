@@ -1,0 +1,17 @@
+@media (min-width: 601px) and (max-width: 800px) {
+
+    .tabla {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-fila {
+        display: flex;
+        justify-content: space-between; 
+        margin-right: 100px;
+    }
+
+    .SeccionUno, .SeccionDos {
+        display: flex;
+        flex-direction: row;
+    }
+}

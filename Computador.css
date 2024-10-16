@@ -1,4 +1,3 @@
-@media (min-width: 801px) {
 
     .Tabla {
         display: grid;
@@ -22,7 +21,7 @@
         flex-direction: column;
         padding: 10%;
         border: 1px solid black;
-        background-color: #7fcaac;
+        background-color: #F7CAAC;
     }
 
     .elemento2 {
@@ -30,7 +29,7 @@
         flex-direction: column;
         padding: 10%;
         border: 1px solid black;
-        background-color: #e88b4d;
+        background-color: #FFE599;
 
     }
 
@@ -39,7 +38,7 @@
         flex-direction: column;
         padding: 10%;
         border: 1px solid black;
-        background-color:#FFFF00 ;
+        background-color:#FFFF00;
     }
 
 
@@ -48,7 +47,7 @@
         flex-direction: column;
         padding: 10%;
         border: 1px solid black;
-        background-color: #86ff61;
+        background-color: #68FB61;
     }
 
     .elementoM{
@@ -56,7 +55,7 @@
         flex-direction: column;
         padding: 10%;
         border: 1px solid black;
-        background-color: #c171fe;
+        background-color: #DDABFF;
     }
 
     .elementoF{
@@ -64,7 +63,7 @@
         flex-direction: column;
         padding: 10%;
         border: 1px solid black;
-        background-color: #ff59ca;
+        background-color: #FF66FF;
     }
 
     .elementoA{
@@ -72,7 +71,7 @@
         flex-direction: column;
         padding: 10%;
         border: 1px solid black;
-        background-color: #5ad0f8;
+        background-color: #8EAADB;
     }
 
    .elementoC{
@@ -80,15 +79,41 @@
         flex-direction: column;
         padding: 10%;
         border: 1px solid black;
-        background-color: #00ccff;
+        background-color: #00CCFF;
     }
 
 
 
     header {
+        text-align: center;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        border-radius: 10px;
         position: relative; 
         z-index: 1;
     }
-    
-    
-}
+
+    body {
+        background-color: #f1e0d6;
+    }
+
+    footer {
+        text-align: center;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 15px;
+    }
+
+    .elemento:hover,
+    .elemento2:hover,
+    .elemento3:hover,
+    .elementoV:hover,
+    .elementoM:hover,
+    .elementoF:hover,
+    .elementoA:hover,
+    .elementoC:hover 
+    {
+        background-color: #031FA2;
+        color: #fff;
+    }

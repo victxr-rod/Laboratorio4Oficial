@@ -1,97 +1,26 @@
 @media (max-width: 600px) {
 
-    
+  .tabla, .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
 
-    .Tabla {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-items: center;
-        align-items: end;
-        height: auto; 
-        margin-top: 20px; 
-        position: relative;
-    }
+  .col{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+  }
 
-    .col{
-        width: 70%; 
-        height: auto;
-
-    }
-
-    .elemento {
-        display: flex;
-        flex-direction: column;
-        flex-wrap:wrap;
-        padding: 10%;
-        border: 1px solid black;
-        background-color: #7fcaac;
-    }
-
-    .elemento2 {
-        display: flex;
-        flex-direction: column;
-        padding: 10%;
-        border: 1px solid black;
-        background-color: #e88b4d;
-
-    }
-
-    .elemento3 {
-        display: flex;
-        flex-direction: column;
-        padding: 10%;
-        border: 1px solid black;
-        background-color:#FFFF00 ;
-    }
-
-
-   .elementoV{
-        display: flex;
-        flex-direction: column;
-        padding: 10%;
-        border: 1px solid black;
-        background-color: #86ff61;
-    }
-
-    .elementoM{
-        display: flex;
-        flex-direction: column;
-        padding: 10%;
-        border: 1px solid black;
-        background-color: #c171fe;
-    }
-
-    .elementoF{
-        display: flex;
-        flex-direction: column;
-        padding: 10%;
-        border: 1px solid black;
-        background-color: #ff59ca;
-    }
-
-    .elementoA{
-        display: flex;
-        flex-direction: column;
-        padding: 10%;
-        border: 1px solid black;
-        background-color: #5ad0f8;
-    }
-
-   .elementoC{
-        display: flex;
-        flex-direction: column;
-        padding: 10%;
-        border: 1px solid black;
-        background-color: #00ccff;
-    }
+  .tabla, .col, .seccion1 , .seccion2{
+    display: flex;
+    flex-direction: column;
+  }
 
 
 
-    header {
-        position: relative; 
-        z-index: 1;
-    }
-    
+
+
     
 }
