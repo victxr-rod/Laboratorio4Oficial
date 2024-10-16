@@ -1,22 +1,25 @@
 @media (min-width: 801px) {
 
     .Tabla {
-        display: flex;
-        flex-direction: row;
-        height: 100%;
-
+        display: grid;
+        grid-template-columns: repeat(18, 1fr); 
+        grid-auto-rows: 50px; 
+        text-align: center;
+        justify-items: center;  
+        height: 100vh;
     }
 
     .col{
-        height: 100%;
-        width: 100%;      
+        grid-template-columns: auto;
+        padding: 10px; 
+        width: 100%; 
+        height: auto;     
     }
 
     .elemento {
         display: flex;
         flex-direction: column;
-        height: 100%;
-        padding: 15%;
+        padding: 10%;
         border: 1px solid black;
         background-color: #7fcaac;
     }
@@ -24,7 +27,7 @@
     .elemento2 {
         display: flex;
         flex-direction: column;
-        padding: 15%;
+        padding: 10%;
         border: 1px solid black;
         background-color: #e88b4d;
 
@@ -33,7 +36,7 @@
     .elemento3 {
         display: flex;
         flex-direction: column;
-        padding: 15%;
+        padding: 10%;
         border: 1px solid black;
         background-color:#FFFF00 ;
     }
@@ -42,7 +45,7 @@
    .elementoV{
         display: flex;
         flex-direction: column;
-        padding: 15%;
+        padding: 10%;
         border: 1px solid black;
         background-color: #86ff61;
     }
@@ -50,7 +53,7 @@
     .elementoM{
         display: flex;
         flex-direction: column;
-        padding: 15%;
+        padding: 10%;
         border: 1px solid black;
         background-color: #c171fe;
     }
@@ -58,7 +61,7 @@
     .elementoF{
         display: flex;
         flex-direction: column;
-        padding: 15%;
+        padding: 10%;
         border: 1px solid black;
         background-color: #ff59ca;
     }
@@ -66,7 +69,7 @@
     .elementoA{
         display: flex;
         flex-direction: column;
-        padding: 15%;
+        padding: 10%;
         border: 1px solid black;
         background-color: #5ad0f8;
     }
@@ -74,9 +77,16 @@
    .elementoC{
         display: flex;
         flex-direction: column;
-        padding: 15%;
+        padding: 10%;
         border: 1px solid black;
         background-color: #00ccff;
     }
 
+
+    header{
+        text-align: center;
+        background-color: #f2f2f2;
+        padding: 1%;
+        font-size: 1.5em;
+    }
 }
