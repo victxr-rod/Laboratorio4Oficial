@@ -1,3 +1,4 @@
+@media (min-width: 801px) {
 
     .Tabla {
         display: grid;
@@ -117,3 +118,5 @@
         background-color: #031FA2;
         color: #fff;
     }
+
+}

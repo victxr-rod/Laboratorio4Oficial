@@ -1,26 +1,102 @@
+@media(max-width:600px){
+body {
+  background-color: #f1e0d6;
+}
+
+header {
+  text-align: center;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative; 
+  z-index: 1;
+}
+
+footer {
+  text-align: center;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.Tabla {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+.col {
+  width: 100%; 
+  margin-bottom: 10px; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.elemento,
+.elemento2,
+.elemento3,
+.elementoV,
+.elementoM,
+.elementoF,
+.elementoA,
+.elementoC {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  border: 1px solid black;
+  transition: background-color 0.3s;
+}
+
+.elemento { background-color: #F7CAAC; }
+.elemento2 { background-color: #FFE599; }
+.elemento3 { background-color: #FFFF00; }
+.elementoV { background-color: #68FB61; }
+.elementoM { background-color: #DDABFF; }
+.elementoF { background-color: #FF66FF; }
+.elementoA { background-color: #8EAADB; }
+.elementoC { background-color: #00CCFF; }
+
+.elemento:hover,
+.elemento2:hover,
+.elemento3:hover,
+.elementoV:hover,
+.elementoM:hover,
+.elementoF:hover,
+.elementoA:hover,
+.elementoC:hover {
+  background-color: #031FA2;
+  color: #fff; 
+}
+
 @media (max-width: 600px) {
-
-  .tabla, .col{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 100px;
+  .col {
+      width: 100%; 
+      margin-bottom: 10px; 
   }
 
-  .col{
-    display: flex;
-    flex-direction: column;
-    gap: 200px;
+  .elemento,
+  .elemento2,
+  .elemento3,
+  .elementoV,
+  .elementoM,
+  .elementoF,
+  .elementoA,
+  .elementoC {
+      width: 80%; 
+      height: 50px; 
+      justify-content: center; 
+      padding: 10px; 
+      margin: 0 auto; 
   }
 
-  .tabla, .col, .seccion1 , .seccion2{
-    display: flex;
-    flex-direction: column;
-  }
-
-
-
-
-
-    
+ 
+  .seccion3 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      grid-auto-rows: auto; 
+      gap:0;
+    }
+}
 }

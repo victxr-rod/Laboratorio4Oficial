@@ -1,17 +1,97 @@
-@media (min-width: 601px) and (max-width: 800px) {
-
-    .tabla {
-        display: flex;
-        flex-direction: column;
+body {
+    background-color: #f1e0d6;
+  }
+  
+  header {
+    text-align: center;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative; 
+    z-index: 1;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+  }
+  
+  @media (min-width: 601px) and (max-width: 800px) {
+    .Tabla {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 10px;
+      margin-top: 20px; 
     }
-    .contenedor-fila {
-        display: flex;
-        justify-content: space-between; 
-        margin-right: 100px;
+  
+    .seccion1 {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
     }
-
-    .SeccionUno, .SeccionDos {
-        display: flex;
-        flex-direction: row;
+  
+    .seccion3 {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
     }
-}
+  
+    .seccion4,
+    .seccion5,
+    .seccion6 {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+    }
+  
+    .seccion7 {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  
+    .elemento,
+    .elemento2,
+    .elemento3,
+    .elementoV,
+    .elementoM,
+    .elementoF,
+    .elementoA,
+    .elementoC {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid black;
+      transition: background-color 0.3s;
+      font-size: 1rem;
+      justify-content: center;
+    }
+  
+    .elemento { background-color: #F7CAAC; }
+    .elemento2 { background-color: #FFE599; }
+    .elemento3 { background-color: #FFFF00; }
+    .elementoV { background-color: #68FB61; }
+    .elementoM { background-color: #DDABFF; }
+    .elementoF { background-color: #FF66FF; }
+    .elementoA { background-color: #8EAADB; }
+    .elementoC { background-color: #00CCFF; }
+  
+    .elemento:hover,
+    .elemento2:hover,
+    .elemento3:hover,
+    .elementoV:hover,
+    .elementoM:hover,
+    .elementoF:hover,
+    .elementoA:hover,
+    .elementoC:hover {
+      background-color: #C11905;
+      color: #fff;
+   }
+  }
